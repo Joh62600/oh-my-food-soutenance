@@ -1,0 +1,67 @@
+@mixin btn {
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+    box-shadow: 0px 4px 10px 0px #00000040;
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: $fontMain;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+    border: none;
+    
+}
+
+@mixin circle {
+    width: 24px;
+    height: 24px;
+    font-family: 'roboto', sans-serif;
+    background-color: $circleColor;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin rectangle_new {
+    width: 80px;
+    height: 29px;
+    background-color: $newColor;
+    font-family: 'roboto', sans-serif;
+    box-shadow: 0px 2px 4px 0px #00000026;
+    border-radius: 2px;
+    position: absolute;
+    color: #008766;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin menu_content_title {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18.75px;
+    border-bottom: 3px solid #99E2D0;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 40px;
+}
+
+@mixin btn_heart {
+    border: 1px;
+    width: 90%;
+    height: 100%;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+@mixin check {
+    width: 59px;
+    height: 69px;
+    background-color: #99E2D0;
+    position: absolute;
+    transition: transform 0.4s ease-in-out;
+}
